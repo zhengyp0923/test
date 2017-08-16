@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ServletDemo1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
              response.getWriter().write("vvvvvvvfff");
-        System.out.println();
+        System.out.println("  ");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
